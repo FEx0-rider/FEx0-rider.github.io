@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background:#2f2f2f;
+            color: #000000;
+
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #fff;
+        } 
+        a {
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid white;
+            padding: 20px;
+            margin: 10px;
+        
+        }
+
+        .acenter {
+            text-align: center;
+            padding: 30px;
+
+        }
+
+        p {
+            color: #aaa;
+            display: inline-block;
+            padding-right: 15%;
+            padding-left: 15%;
+        }
+        .pozadi {
+            background-color: #000000;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+        #pizzapozadi {
+            height: 60vh;
+            background-image: url(https://duyn491kcolsw.cloudfront.net/files/1c/1ch/1chs5q.jpg?ph=9aaa7f6657);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* efekt zasuniti pizzy */
+
+        }
+
+        #chut {
+            color: #aaa;
+            font-weight: normal;
+        }
+
+        .nabidka {
+            text-align: center;
+            gap: 20px;
+            display: flex;
+        }
+
+        .speciality {
+            padding: 10px;
+        }
+
+        #pizza1 {
+            width: 400px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .pravo {
+            width: 200px;
+            object-fit: cover;
+        }
+
+        .pravodiv {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+        }
+
+        .dolediv {
+            display: flex;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .dolediv img {
+            width: 300;
+            object-fit: cover;
+        }
+
+
+        .hodiny {
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: #4c4242e9;
+        border: 1px solid #000000;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .den {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid #aaa;
+        }
+
+        .den:last-child {
+        border-bottom: none;
+        }
+
+        .closed {
+        color: red;
+        font-weight: bold;
+        }
+
+        footer {
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-size: 14px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <footer>
+        <h1>pizzerarna</h1>
+    </footer>
+
+    <div id="pizzapozadi"></div>
+
+    <p>JSME LUXUSNÍ ITALSKÁ RESTAURACE, JEJÍŽ HLAVNÍM CÍLEM JE CO NEJVÍCE A NEJLÉPE USPOKOJIT CHUŤOVÉ POHÁRKA NAŠIM ZÁKAZNÍKŮ. VYTVÁŘÍME VYNIKAJÍCÍ TRADIČNÍ ITALSKÉ POKRMY ZA DOSTPNÉ CENY PRO KAŽDÉHO, PROTOŽE ZASTÁVÁME NÁZOR, ŽE JÍDLO BY MĚLO BÝT RADOSTÍ BEZ OHLEDU NA CENU PRO VŠECHNY. </p>
+    
+    <div class="pozadi"> <!-- blok pro tmavsi cast na strance -->
+        <h2>— MENU —</h2>
+        <p>V NAŠÍ NABÍDCE POKRMŮ NALEZNETE VŠECHNY TRADIČNÍ ITALSKÁ JÍDLA. ZÁKAZNÍCI SI MOHOU VYBRAT Z NAŠÍ STÁLE NABÍDKY POKRMŮ. NABÍZÍME VŠECHNY MOŽNÉ DRUHY PIZZY, TĚSTOVIN A DALŠÍCH. </p>
+        <div class="acenter">
+            <a href="">PIZZA</a>
+            <a href="">HLAVNI MENU</a>
+            <a href="">NAPOJE</a>
+        </div>
+    </div>
+
+    <h2>— NAŠE SPECIALITY —</h2>
+    <h3 id="chut">Dokonalá kombinace chutí</h3>
+
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <div class="nabidka">
+                <img width="550" height="490" class="speciality" id="pizza1" src="https://duyn491kcolsw.cloudfront.net/files/47/47s/47sa3d.jpg?ph=9aaa7f6657" alt="pizza">
+                <div class="pravodiv">   
+                    <img width="200" height="150" class="speciality pravo" src="https://duyn491kcolsw.cloudfront.net/files/38/38p/38px0d.jpg?ph=9aaa7f6657" alt="polevka">
+                    <img width="200" height="150" class="speciality pravo" src="https://duyn491kcolsw.cloudfront.net/files/1j/1jk/1jkuy6.jpg?ph=9aaa7f6657" alt="testoviny">
+                    <img width="200" height="150" class="speciality pravo" src="https://duyn491kcolsw.cloudfront.net/files/0e/0eb/0ebapm.jpg?ph=9aaa7f6657" alt="Vejce Benedikt">
+                </div>
+            </div>
+                <div class="dolediv">
+                    <img width="300" class="speciality" src="https://duyn491kcolsw.cloudfront.net/files/3e/3e3/3e3nj7.jpg?ph=9aaa7f6657" alt="farmasky salat">
+                    <img width="300" class="speciality" src="https://duyn491kcolsw.cloudfront.net/files/18/183/183g7n.jpg?ph=9aaa7f6657" alt="pizza 2">
+                </div>
+        </div>
+    </div>
+
+
+    <div class="pozadi">
+        <h2>TĚŠÍME SE NA VAŠI NÁVŠTĚVU</h2>
+
+        <h3>OTEVÍRACÍ DOBA</h3>
+
+        <h3>NENECHTE SI UJÍT NAŠE VYNIKAJÍCÍ JÍDLO</h3>
+        <p>REZERVACE NENÍ NUTNÁ, ALE NENÍ NÁSLEDNĚ ZARUČENÉ MÍSTO PRO VAŠI NÁVŠTĚVU A NEMUSELI BYSTE SI TÍM PÁDEM SEDNOUT A VYCHUTNAT SI VÁMI OBJEDNANÉ POKRMY. PROTO REZERVACI PŘEDEM DOPORUČUJEME.</p>
+        <a href="">Rezervace stolu</a>
+        
+        <div>
+            <div class="hodiny">
+                <div class="den"><span>Po:</span> <span class="closed">zavřeno</span></div>
+                <div class="den"><span>Út:</span> <span>9:30 - 20:00</span></div>
+                <div class="den"><span>St:</span> <span>9:30 - 20:00</span></div>
+                <div class="den"><span>Čt:</span> <span>11:00 - 22:00</span></div>
+                <div class="den"><span>Pá:</span> <span>11:00 - 22:00</span></div>
+                <div class="den"><span>So:</span> <span>11:00 - 22:00</span></div>
+                <div class="den"><span>Ne:</span> <span>11:00 - 20:00</span></div>
+              </div>
+        </div>
+
+        <footer>
+            <p>PIZZERÁRNA, OMSKÁ 24, PRAHA 10 VRŠOVICE, 100 00</p>
+          </footer>
+    </div>
+
+
+</body>
+</html>
