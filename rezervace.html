@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervace</title>
+    <style>
+
+        body {
+            background-color: #2f2f2f;
+            padding-top: 20px;
+        }
+        h1, h2 {
+            color: #fff;
+            text-decoration: underline;
+            text-align: center;
+            
+        }
+        a {
+            
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid white;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .hodiny {
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: #706262e9;
+        border: 1px solid #000000;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .den {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid #aaa;
+        }
+
+        .den:last-child {
+        border-bottom: none;
+        }
+
+        .closed {
+        color: red;
+        font-weight: bold;
+        }
+
+        footer {
+        background-color: #000000;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-size: 14px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rezervace</h1>
+    <h2>Volejte hned na: +420 694 895 859</h2>
+
+    
+    <div class="hodiny">
+        <div class="den"><span>Po:</span> <span class="closed">zavřeno</span></div>
+        <div class="den"><span>Út:</span> <span>9:30 - 20:00</span></div>
+        <div class="den"><span>St:</span> <span>9:30 - 20:00</span></div>
+        <div class="den"><span>Čt:</span> <span>11:00 - 22:00</span></div>
+        <div class="den"><span>Pá:</span> <span>11:00 - 22:00</span></div>
+        <div class="den"><span>So:</span> <span>11:00 - 22:00</span></div>
+        <div class="den"><span>Ne:</span> <span>11:00 - 20:00</span></div>
+    </div>
+
+    <a href="index.html">Hlavni strana</a>
+    <a href="menu.html">Menu</a>
+
+    <footer>
+        <p>PIZZERÁRNA, OMSKÁ 24, PRAHA 10 VRŠOVICE, 100 00</p>
+    </footer>
+</body>
+</html>
